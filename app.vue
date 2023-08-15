@@ -6,7 +6,9 @@
       <v-card-subtitle>This is a subtitle</v-card-subtitle>
       <v-card-text> This is content </v-card-text>
     </v-card>
-    <v-btn class="mt-10">Hello Sass Changes</v-btn>
+    <v-btn class="mt-10">
+      Hello Sass Changes
+    </v-btn>
   </div>
 </template>
 
