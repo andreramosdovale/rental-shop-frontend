@@ -18,5 +18,16 @@ module.exports = {
     "prefer-promise-reject-errors": "off",
     "vue/multi-word-component-names": "off",
     quotes: [2, "double", { avoidEscape: true }]
-  }
+  },
+  overrides: [
+    {
+      files: [
+        "**/__tests__/*.{j,t}s?(x)",
+        "**/tests/unit/**/*.spec.{j,t}s?(x)"
+      ],
+      env: {
+        jest: true
+      }
+    }
+  ]
 }
