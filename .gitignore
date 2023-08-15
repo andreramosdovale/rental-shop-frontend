@@ -13,7 +13,7 @@ yarn.lock
 .pnp.cjs
 .pnp.loader.mjs
 .npmrc
-packege-lock.json
+package-lock.json
 
 # Logs
 logs
